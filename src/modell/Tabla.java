@@ -22,14 +22,16 @@ public class Tabla {
         }
     }
 
-    public void megjelenit() {
+    public String megjelenit() {
         //majd még átalakítando a Gui hoz
+        String kimeno = "";
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
-                System.out.print(t[i][j] + " ");
+                kimeno += t[i][j] + " ";
             }
-            System.out.println("");
+            kimeno += "\n";
         }
+        return kimeno;
     }
 
     public void elhelyez(int n) {
