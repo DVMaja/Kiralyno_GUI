@@ -23,6 +23,7 @@ public class Tabla {
     }
 
     public void megjelenit() {
+        //majd még átalakítando a Gui hoz
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
                 System.out.print(t[i][j] + " ");
@@ -31,7 +32,7 @@ public class Tabla {
         }
     }
 
-    public String[][] elhelyez(int n) {
+    public void elhelyez(int n) {
         int nDb = 0;
         while (nDb < n) {
             int sor = randomSzam();
@@ -41,11 +42,28 @@ public class Tabla {
                 nDb++;
             }
         }
-        return t;
     }
 
     private int randomSzam() {
         return rnd.nextInt(7 - 0) + 1;
+    }
+
+    public boolean uresSor(int sor) {
+        int db = 0;
+
+        while (db < 8 && !(t[sor][db].equals("K"))) {
+            db++;
+        }
+        return db >= 8;
+    }
+
+    public boolean uresOszlop(int oszlop) {
+        int db = 0;
+
+        while (db < 8 && !(t[db][oszlop].equals("K"))) {
+            db++;
+        }
+        return db >= 8;
     }
 
 }

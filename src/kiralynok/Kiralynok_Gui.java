@@ -9,11 +9,17 @@ public class Kiralynok_Gui {
     }
 
     private void feladat() {
-        Tabla tabla = new Tabla("#");       
+        Tabla tabla = new Tabla("#");
         tabla.megjelenit();
+
         System.out.println("Királynők hozzáadaása");
-        tabla.elhelyez(5);
+        tabla.elhelyez(8);
         tabla.megjelenit();
+        
+        //System.out.println(tabla.uresSor(0));
+        //System.out.println(tabla.uresOszlop(0));
     }
+    
+    
 
 }
