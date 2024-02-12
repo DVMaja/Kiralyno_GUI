@@ -11,6 +11,7 @@ public class KiralynoGuiVez {
     public KiralynoGuiVez(Gui nezet, Tabla modell) {
         this.nezet = nezet;
         this.modell = modell;
+        
     }
 
 }
