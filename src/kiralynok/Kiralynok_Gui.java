@@ -15,14 +15,16 @@ public class Kiralynok_Gui {
         Fajl f = new Fajl(64);
         System.out.println(tabla.megjelenit());
 
-        System.out.println("Királynők hozzáadaása");
-        tabla.elhelyez(8);
-        System.out.println(tabla.megjelenit());
-        //f.fajlbaKiir();
-        //Leakad 50-nél
-
-        System.out.println(tabla.uresSor(0));
-        System.out.println(tabla.uresOszlop(0));
+//        System.out.println("Királynők hozzáadaása");
+//        tabla.elhelyez(8);
+//        System.out.println(tabla.megjelenit());
+//        //f.fajlbaKiir();
+//        //Leakad 50-nél
+//
+//        System.out.println("Üres e a sor: "+tabla.uresSor(0));
+//        System.out.println("Üres e az oszlop: "+tabla.uresOszlop(0));
+//        System.out.println("Üres sorok száma: " + tabla.uresSorokSzama());
+//        System.out.println("Üres oszlopok száma: " + tabla.uresOszlopokSzama());
     }
 
 }
