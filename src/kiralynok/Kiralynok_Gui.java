@@ -20,7 +20,7 @@ public class Kiralynok_Gui {
     private void guihoz() {
         Gui nezet = new Gui();
         nezet.setVisible(true);
-        Tabla modell = new Tabla("#");        
+        Tabla modell = new Tabla("#");
         new KiralynoGuiVez(nezet, modell);
     }
 

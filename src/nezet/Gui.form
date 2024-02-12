@@ -252,13 +252,13 @@
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jRadioButton3" alignment="1" pref="232" max="32767" attributes="0"/>
+                              <Component id="jRBkdb" alignment="1" pref="232" max="32767" attributes="0"/>
                               <Component id="jRadioButton2" max="32767" attributes="0"/>
                               <Component id="jRadioButton1" alignment="0" max="32767" attributes="0"/>
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="jSpinner2" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jButton1" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
+                                      <Component id="jSKdb" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jBtujM" alignment="0" min="-2" pref="101" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
@@ -275,11 +275,11 @@
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
                           <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jRBkdb" min="-2" max="-2" attributes="0"/>
                           <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="jSpinner2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jSKdb" min="-2" max="-2" attributes="0"/>
                           <EmptySpace pref="32" max="32767" attributes="0"/>
-                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jBtujM" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -302,7 +302,7 @@
                     <Property name="text" type="java.lang.String" value="12 kir&#xe1;lyn&#x151;"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JRadioButton" name="jRadioButton3">
+                <Component class="javax.swing.JRadioButton" name="jRBkdb">
                   <Properties>
                     <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
                       <ComponentRef name="buttonGroup1"/>
@@ -310,17 +310,17 @@
                     <Property name="text" type="java.lang.String" value="&#xe9;n szeretn&#xe9;m megadni"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JSpinner" name="jSpinner2">
+                <Component class="javax.swing.JSpinner" name="jSKdb">
                   <Properties>
                     <Property name="enabled" type="boolean" value="false"/>
                   </Properties>
                 </Component>
-                <Component class="javax.swing.JButton" name="jButton1">
+                <Component class="javax.swing.JButton" name="jBtujM">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="&#xda;j minta"/>
                   </Properties>
                   <Events>
-                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtujMActionPerformed"/>
                   </Events>
                 </Component>
               </SubComponents>
