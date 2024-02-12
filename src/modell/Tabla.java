@@ -66,4 +66,26 @@ public class Tabla {
         return db >= 8;
     }
 
+    public int uresSorokSzama() {
+        int uresSorokDb = 0;
+
+        for (int sor = 0; sor < 8; sor++) {
+            if (uresSor(sor)) {
+                uresSorokDb++;
+            }
+        }
+        return uresSorokDb;
+    }
+
+    public int uresOszlopokSzama() {
+        int uresOszlopokDb = 0;
+
+        for (int oszlop = 0; oszlop < 8; oszlop++) {
+            if (uresOszlop(oszlop)) {
+                uresOszlopokDb++;
+            }
+        }
+        return 1;
+    }
+
 }
